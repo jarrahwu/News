@@ -14,7 +14,7 @@ import com.example.locker.R;
  */
 public abstract class BaseFragment extends Fragment{
 
-    public View mView;
+    protected View mView;
 
     @Nullable
     @Override
@@ -22,6 +22,7 @@ public abstract class BaseFragment extends Fragment{
         mView = onCreateViewImpl(inflater, container, savedInstanceState);
         mView.setBackgroundColor(getResources().getColor(R.color.app_background));
         mView.setLayoutParams(new ViewGroup.LayoutParams(-1, -1));
+        mView.setClickable(true);
         return mView;
     }
 

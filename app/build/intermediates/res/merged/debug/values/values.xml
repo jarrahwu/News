@@ -356,6 +356,7 @@
     <string name="enable_locker">开启锁屏</string>
     <string name="hello_world">Hello world!</string>
     <string name="hide_app_content">隐藏APP消息内容</string>
+    <string name="input_again">请再次输入解锁密码</string>
     <string name="input_locker_pwd">请输入解锁密码</string>
     <string name="light_device_on_notify">亮屏通知</string>
     <string name="light_device_on_notify_desc">收到消息时自动亮屏</string>
@@ -365,6 +366,8 @@
     <string name="locker_setting">设置</string>
     <string name="msg_notify">消息通知</string>
     <string name="online_wall">在线壁纸</string>
+    <string name="pasaword_incorret_input_again">密码不一致, 请重新输入</string>
+    <string name="password_input_done">已设置密码</string>
     <string name="slide_to_unlock">滑动解锁</string>
     <string name="start">开始</string>
     <!-- From: file:/C:/AndroidStudioProject/Locker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
@@ -1765,6 +1768,7 @@
         <item name="android:background">#e0e0e0</item>
     </style>
     <style name="locker_pwd_box">
+        <item name="android:textSize">16sp</item>
         <item name="android:gravity">center</item>
         <item name="android:maxLength">1</item>
         <item name="android:singleLine">true</item>

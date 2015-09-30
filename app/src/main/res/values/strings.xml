@@ -40,5 +40,8 @@
     <string name="unable_open_locker">无法找到系统锁屏设置, 请手动去设置打开</string>
     <string name="disableSysLocker">禁用系统锁屏</string>
     <string name="start">开始</string>
+    <string name="password_input_done">已设置密码</string>
+    <string name="input_again">请再次输入解锁密码</string>
+    <string name="pasaword_incorret_input_again">密码不一致, 请重新输入</string>
 
 </resources>
