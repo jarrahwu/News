@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/main_lock_view" />
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="100dip"
+        android:layout_height="48dip"
+        android:layout_above="@+id/applyWallpaper"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="83dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/bg_btn_preview"
+        android:text="@string/back"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/apply"
+        android:layout_width="100dip"
+        android:layout_height="48dip"
+        android:layout_above="@+id/applyWallpaper"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="83dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/bg_btn_preview"
+        android:text="@string/apply"
+        android:textColor="@color/white" />
+
+
+    <com.stkj.android.view.CheckText xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/applyWallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:drawablePadding="3dip"
+        android:gravity="center_vertical"
+        android:text="@string/applyWallpaper"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:checked_drawable="@drawable/ic_check_checked"
+        app:normal_drawable="@drawable/ic_check_normal" />
+
+</RelativeLayout><!-- From: file:/C:/AndroidStudioProject/Locker/app/src/main/res/layout/activity_preview.xml -->

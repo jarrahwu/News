@@ -1,0 +1,70 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:textColor">#323232</item>
+    </style>
+
+    <style name="GreenSwitchStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Active thumb color & Active track color(30% transparency) -->
+        <item name="colorControlActivated">@color/action_bar_color</item>
+        <!-- Inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@android:color/white</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/switch_thumb_disabled_material_dark</item>
+    </style>
+
+    <style name="grey_horizontal_divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">#e0e0e0</item>
+    </style>
+
+    <style name="setting_divider" parent="grey_horizontal_divider">
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:layout_marginRight">16dip</item>
+    </style>
+
+
+    <style name="locker_pwd_box">
+        <item name="android:gravity">center</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">50dip</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:background">@drawable/bg_locker_word</item>
+    </style>
+
+    <style name="pwd_key_item">
+        <item name="android:layout_margin">1dip</item>
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">120dip</item>
+        <item name="android:layout_height">65dip</item>
+    </style>
+
+    <style name="base_activity">
+        <item name="android:background">@color/app_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">?attr/actionBarSize</item>
+    </style>
+
+</resources>

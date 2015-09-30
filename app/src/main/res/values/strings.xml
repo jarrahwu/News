@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyLock</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_screen_lock">ScreenLockActivity</string>
+    <string name="slide_to_unlock">滑动解锁</string>
+    <string name="load_fail">加载失败</string>
+    <string name="local_wall">我的壁纸</string>
+    <string name="locker_setting">设置</string>
+    <string name="online_wall">在线壁纸</string>
+    <string name="about">关于</string>
+    <string name="locker_pwd">锁屏密码</string>
+    <string name="msg_notify">消息通知</string>
+    <string name="app_msg_notify">应用消息提醒</string>
+    <string name="app_msg_notify_desc">在锁屏状态显示APP消息</string>
+    <string name="hide_app_content">隐藏APP消息内容</string>
+    <string name="light_device_on_notify">亮屏通知</string>
+    <string name="light_device_on_notify_desc">收到消息时自动亮屏</string>
+    <string name="input_locker_pwd">请输入解锁密码</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_c">C</string>
+    <string name="_0">0</string>
+    <string name="_b">Del</string>
+    <string name="enable_locker">开启锁屏</string>
+    <string name="applyWallpaper">同时应用壁纸到主屏</string>
+    <string name="back">返回</string>
+    <string name="apply">应用</string>
+    <string name="title_activity_init">初始设置</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="unable_open_locker">无法找到系统锁屏设置, 请手动去设置打开</string>
+    <string name="disableSysLocker">禁用系统锁屏</string>
+    <string name="start">开始</string>
+
+</resources>

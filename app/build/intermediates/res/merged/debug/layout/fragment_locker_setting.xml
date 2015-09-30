@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.stkj.android.view.TextSwitch xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lockerEnable"
+        app:switch_title="@string/enable_locker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.stkj.android.view.TextSwitch>
+    <View
+        style="@style/setting_divider" />
+    <com.stkj.android.view.TextSwitch xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/msgNotify"
+        app:switch_title="@string/app_msg_notify"
+        app:switch_description="@string/app_msg_notify_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.stkj.android.view.TextSwitch>
+
+    <View
+        style="@style/setting_divider" />
+
+    <com.stkj.android.view.TextSwitch xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/hideMsgContent"
+        app:switch_title="@string/hide_app_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.stkj.android.view.TextSwitch>
+
+    <View style="@style/setting_divider" />
+
+    <com.stkj.android.view.TextSwitch xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lightDevice"
+        app:switch_title="@string/light_device_on_notify"
+        app:switch_description="@string/light_device_on_notify_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.stkj.android.view.TextSwitch>
+
+</LinearLayout><!-- From: file:/C:/AndroidStudioProject/Locker/app/src/main/res/layout/fragment_locker_setting.xml -->

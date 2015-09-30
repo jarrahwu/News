@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Locker.iml" filepath="$PROJECT_DIR$/Locker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecyclerAnimator/RecyclerAnimator.iml" filepath="$PROJECT_DIR$/RecyclerAnimator/RecyclerAnimator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecyclerViewLibary/RecyclerViewLibary.iml" filepath="$PROJECT_DIR$/RecyclerViewLibary/RecyclerViewLibary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShimmerText/ShimmerText.iml" filepath="$PROJECT_DIR$/ShimmerText/ShimmerText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

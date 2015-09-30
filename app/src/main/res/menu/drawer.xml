@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/online_wall"
+            android:icon="@drawable/ic_drawer_online_wall"
+            android:title="@string/online_wall"/>
+
+        <item
+            android:id="@+id/local_wall"
+            android:icon="@drawable/ic_drawer_local_wall"
+            android:title="@string/local_wall"/>
+
+        <item
+            android:id="@+id/locker_setting"
+            android:icon="@drawable/ic_drawer_setting"
+            android:title="@string/locker_setting"/>
+
+        <item
+            android:id="@+id/msg_notify"
+            android:icon="@drawable/ic_drawer_msg"
+            android:title="@string/msg_notify"/>
+
+        <item
+            android:id="@+id/locker_pwd"
+            android:icon="@drawable/ic_drawer_pwd"
+            android:title="@string/locker_pwd"/>
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_drawer_about"
+            android:title="@string/about"/>
+    </group>
+</menu>

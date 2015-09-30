@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/main_lock_view" />
+
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/shimmer_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="@string/slide_to_unlock"
+        android:textColor="#444"
+        android:layout_marginBottom="20dp"
+        android:textSize="36sp" />
+
+</FrameLayout><!-- From: file:/C:/AndroidStudioProject/Locker/app/src/main/res/layout/lock_window.xml -->
